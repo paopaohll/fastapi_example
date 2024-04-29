@@ -17,5 +17,4 @@ if __name__ == "__main__":
     process_list(items=fruit_list)
 
     t = ("apple", "banana", "watermelon")
-    print(t.index(1))
     print(t)
