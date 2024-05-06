@@ -1,8 +1,8 @@
 'use strict';
-// 定义变量hell0,
-var hello = "Hello World";
-/*
-打印变量hello
-编写if判断语句
-*/
-console.log(hello);
+
+var arr = ['小明', '小红', '大军', '阿黄'];
+
+var str = arr.sort().join(', ');
+
+var str2 = `欢迎 ${str} 同学`;
+console.log(str2);
